@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'maven_jdk8' }
+    agent { label 'MAVEN_JDK8' }
     stages {
         stage('git') {
             steps {
