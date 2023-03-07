@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git') {
             steps {
-                git url: https://github.com/sujeeth36/game-of-life.git ,
+                git url: 'https://github.com/sujeeth36/game-of-life.git' ,
                      branch: 'master'
             }
         }
